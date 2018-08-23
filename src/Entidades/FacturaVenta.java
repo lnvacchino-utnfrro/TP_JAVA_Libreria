@@ -1,11 +1,15 @@
 package Entidades;
 
 import java.util.Date;
+import java.util.HashMap;
 
 public class FacturaVenta {
    
 	private int nroFacturaVenta;
 	private Date fechaEmision;
+	private HashMap<Integer,LineaVenta> lineasVentas= new HashMap<Integer,LineaVenta>();
+	
+	
 	public int getNroFacturaVenta() {
 		return nroFacturaVenta;
 	}

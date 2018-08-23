@@ -1,5 +1,7 @@
 package Entidades;
 
+import java.util.HashMap;
+
 public class Cliente {
 
 	private int idCliente;
@@ -10,7 +12,7 @@ public class Cliente {
 	private String direccion;
 	private int telefono;
 	private String mail;
-	
+	private HashMap<Integer,FacturaVenta> facturasVenta = new HashMap<Integer,FacturaVenta>();
 	
 	public int getIdCliente() {
 		return idCliente;

@@ -4,6 +4,7 @@ public class LineaVenta {
 	
 	private int idLineaVenta;
 	private int cantidad;
+	private Ejemplar ejemplar;
 	
 	public int getIdLineaVenta() {
 		return idLineaVenta;

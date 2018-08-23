@@ -1,5 +1,7 @@
 package Entidades;
 
+import java.util.HashMap;
+
 public class Libro {
 	
 	private int idLibro;
@@ -10,6 +12,10 @@ public class Libro {
 	private float precio;
 	private String editorial;
 	private String genero;
+	private Autor autor = new Autor();
+	private HashMap<Integer,Ejemplar> ejemplares = new HashMap<Integer,Ejemplar>();
+	private HashMap<Integer,Comentario> comentarios = new HashMap<Integer,Comentario>();
+	
 	public int getIdLibro() {
 		return idLibro;
 	}
