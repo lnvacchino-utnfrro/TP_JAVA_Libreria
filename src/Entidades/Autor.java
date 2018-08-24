@@ -1,7 +1,8 @@
 package Entidades;
 
 public class Autor {
-
+	/* este es un mensaje de testeo*/
+	
 	private int idAutor;
 	private String nombreAutor;
 	
