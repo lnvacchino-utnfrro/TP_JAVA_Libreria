@@ -3,7 +3,7 @@ package Entidades;
 import java.util.HashMap;
 
 public class Cliente {
-
+ /* Comentario para probas si funciona git */
 	private int idCliente;
 	private String usuario;
 	private String contraseña;
