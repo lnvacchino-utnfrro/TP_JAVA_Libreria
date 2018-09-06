@@ -3,7 +3,7 @@ package Entidades;
 import java.util.HashMap;
 import Entidades.Libro;
 
-public class Libreria {
+public class Libreria { 
 
 	private int cuit;
 	private String razonSocial;
