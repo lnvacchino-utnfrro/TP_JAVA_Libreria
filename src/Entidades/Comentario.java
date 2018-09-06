@@ -6,7 +6,11 @@ public class Comentario {
 	private String descripcion;
 	private Date fechaCreacion;
 	private Cliente cliente;
+	private int idComentario ;
 	
+	public void setIdComentario( int idComentario) {
+		this.idComentario = idComentario;
+	}
 	public String getDescripcion() {
 		return descripcion;
 	}

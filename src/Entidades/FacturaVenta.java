@@ -6,7 +6,7 @@ import java.util.HashMap;
 public class FacturaVenta {
    
 	private int nroFacturaVenta;
-	private Date fechaEmision;
+	private Date fechaEmisionVenta;
 	private HashMap<Integer,LineaVenta> lineasVentas= new HashMap<Integer,LineaVenta>();
 	
 	
@@ -14,13 +14,13 @@ public class FacturaVenta {
 		return nroFacturaVenta;
 	}
 	public Date getFechaEmision() {
-		return fechaEmision;
+		return fechaEmisionVenta;
 	}
 	public void setNroFacturaVenta(int nroFacturaVenta) {
 		this.nroFacturaVenta = nroFacturaVenta;
 	}
 	public void setFechaEmision(Date fechaEmision) {
-		this.fechaEmision = fechaEmision;
+		this.fechaEmisionVenta = fechaEmision;
 	}
 	
 	
