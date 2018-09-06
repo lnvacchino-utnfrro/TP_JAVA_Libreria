@@ -7,6 +7,7 @@ public class Proveedor {
 	private int telefonoProveedor;
 	private String mailProveedor;
 	private String direccionProveedor;
+	
 	public int getCuit() {
 		return cuit;
 	}

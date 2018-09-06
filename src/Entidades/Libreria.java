@@ -3,11 +3,11 @@ package Entidades;
 import java.util.HashMap;
 import Entidades.Libro;
 
-public class Libreria {
+public class Libreria { 
 
 	private int cuit;
 	private String razonSocial;
-	private int telefono;
+	private int telefonoLibreria;
 	private String mailLibreria;
 	private String direccionLibreria;
 	private HashMap<Integer,Libro> libros = new HashMap<Integer,Libro>();
@@ -19,7 +19,7 @@ public class Libreria {
 		return razonSocial;
 	}
 	public int getTelefono() {
-		return telefono;
+		return telefonoLibreria;
 	}
 	public String getMailLibreria() {
 		return mailLibreria;
@@ -34,7 +34,7 @@ public class Libreria {
 		this.razonSocial = razonSocial;
 	}
 	public void setTelefono(int telefono) {
-		this.telefono = telefono;
+		this.telefonoLibreria = telefono;
 	}
 	public void setMailLibreria(String mailLibreria) {
 		this.mailLibreria = mailLibreria;
